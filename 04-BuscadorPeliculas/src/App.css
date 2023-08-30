@@ -1,0 +1,36 @@
+.appDiv {
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.movies-main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.movies-ul {
+  list-style: none;
+  text-align: center;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.movies-ul img {
+  height: 400px;
+}
